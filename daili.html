@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>代理商证书查询系统</title>
+	<link href="style/xfl_listcss.css" rel="stylesheet" type="text/css">
+	<link href="style/xfl_cpcss.css" rel="stylesheet" type="text/css">
+	<script src="dlcx.js"></script>
+	<script src="jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="style/lazyload.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+.menu li .menuliahover5 { color:#000; background:#f0f0f0; display:block;}
+</style>
+  </head>
+
+  <body>
+
+
+	<form action="" method="get" target="_blank" id="myform1" name="myform1" style="display:none;">
+<input type="hidden" name="typeid" value="5">
+      <input type="hidden" name="mid" value="1">
+      <input type="hidden" name="dopost" value="search">
+  <div class="top">
+    <div class="top_ewm"></div>
+    <div class="search">
+      <input name="shouji" type="text" class="s1">
+      <input onclick="return cheForm1();" name="submit" type="submit" class="s2" value="代理查询" style="cursor:pointer">
+    </div>
+  </div>
+</form>
+<div class="menu" style="width:100%;">
+	<div style="margin-left:auto;margin-right:auto;width:50%;">
+  <ul>
+   <li><a href="index.html" class="color:while;">Huang's Elite</a></li>
+    <li><a href="index.html" class="menuliahover0">首页</a></li>
+	
+    <!--<li><a href="product.html" class="menuliahover1">品牌资讯</a></li>-->
+    
+    <li><a href="goods.html" class="menuliahover2">产品系列</a></li>
+    
+    <li><a href="fangwei.html" class="menuliahover4">防伪查询</a></li>
+    
+    <li class=""><a href="daili.html" class="menuliahover5">代理查询</a></li>
+     <!--<li class=""><a href="lxwm.html" class="menuliahover6">联系我们</a></li>-->
+    
+    
+    
+   
+</ul></div>
+   <!-- <li class="menu_lia1"  style=" margin:0; margin-right:1px; float:right;"><a href="/reg/" >代理商注册</a></li>-->
+  
+</div>
+
+<div class="main_fwcx">
+  <div class="main_fwcxtl">
+    <div class="main_dlcxtlin2"><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <font style="font-family:&#39;微软雅黑&#39;; font-size:35px;"></font><br>
+      <font style="font-family:&#39;微软雅黑&#39;; font-size:24px;"></font><br>
+</div>
+  </div>
+  <div class="chaxun_main">
+    <div class="chaxun_maintl">请输入编码或微信号</div>
+    <div class="dlchaxun_li2"><span>编码</span>
+      <div class="chaxun_xlin" style="height:80px;">
+        <ul>
+          <li txt="shouji">编码</li>
+        </ul>
+      </div>
+    </div>
+
+	<input type="hidden" name="typeid" value="5">
+      <div class="dlchaxun_li1">
+        <input name="DlCode" type="text" value="" id="DlCode">
+      </div>
+      <div class="dlchaxun_li3">
+        <input  type="button" onclick="dlcx('DlCode','DlReturnResult')" value="点击查询">
+      </div>
+        <div class="cl"></div>
+     <div class="jg_main2" id="jg_main_id" style="display:none;"><font style="font-size:25px; color:#999;"></font> <br><font id="fangwei_id" style="font-size:35px; color:#000;">
+</font></div>
+ <div class="cl"></div> 
+  </div>
+  
+  
+</div>
+<div class="main" style="display:none;">
+  <div class="main_left">
+    <div class="main_leftl"></div>
+
+  </div>
+  <div class="main_right">
+    <div class="main_rightl"></div>
+  </div>
+  
+  
+  <div class="cl"></div>
+  <img src="style/ditu1.jpg" original="style/ditu1.jpg">
+</div>
+
+<div class="btn_ewm">
+  <table width="1130" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td style="color:#000000;"><div class="bottom_logo"><a href="index.html"></a></div>Copyright &#169; 2002-2018 葡萄牙huangs投资有限公司 版权所有 </td>
+    <td align="right" style="width:55%;"><div align="left"><font style=" font-weight:bold; font-family:&#39;微软雅黑&#39;; font-size:16px; color:#000000;">地址：zona industrial da varziela rua da rotunda n22 arvore vila do conde </font>
+	<br>
+	<font style=" font-weight:bold; font-family:&#39;微软雅黑&#39;; font-size:16px; color:#000000;"></font>
+	</div>
+	<div class="bottom_chaxun"><a href="fangwei.html" target="_blank">马上点击查询真伪&gt;</a></div></td>
+	<div id="DlReturnResult">这里显示您的查询结果</div>
+  </tr>
+</tbody></table>
+</div>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

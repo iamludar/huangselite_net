@@ -1,0 +1,52 @@
+@charset "gb2312";
+
+/* CSS Document */
+
+html, body, ul, li {padding:0; margin:0;}
+body { background-color:#fff; font-size:12px;}
+ul,li {list-style-type:none; text-transform:capitalize;}
+.cl {clear:both; *display:inline;/*IE only*/}
+img { border:0;}
+a { text-decoration:none;}
+.nav { width:1130px; margin:0 auto; height:35px; background:url(xfl_bg1.jpg) bottom repeat-x;}
+.top { width:1130px; margin:0 auto; height:108px; background:url(xfl_logo.jpg)  no-repeat; }
+.top a {width:1130px; height:108px; display:block;}
+.search { width:310px; height:35px; float:right; padding-top:40px;}
+.s1 { width:190px; height:30px; border:1px solid #ededed; border-right:0; float:left; background:url(xfl_s1.jpg) 5px no-repeat; line-height:30px; padding-left:30px; outline:none;}
+.s2 { width:80px; background:#505050; height:32px; float:left; border:0; color:#FFF; font-family:"Î¢ÈíÑÅºÚ";}
+.top_ewm { width:187px; height:76px; background:url(xfl_ewm1.jpg); float:right; margin-top:20px;}
+.menu {width:1130px; margin:0 auto; height:35px; background:#000;}
+.menu ul { padding-left:30px;}
+.menu li { width:100px; height:35px; line-height:35px; float:left; font-family:"Î¢ÈíÑÅºÚ"; text-align:center; font-size:14px; margin-left:10px; margin-right:10px; color:#654892; cursor:pointer; font-weight:bold; position:relative;}
+.menuin { width:300px; height:200px; position:absolute; background:#fff; left:0; top:35px;filter:alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity: 0.95;opacity: 0.95; z-index:110;-webkit-box-shadow: #ccc 0px 2px 4px;-moz-box-shadow: #ccc 0px 2px 4px;box-shadow: #ccc 0px 2px 4px; display:none}
+.menu li a { color:#FFF; display:block;}
+.menu li .menuliahover { color:#000; background:#f0f0f0; display:block;}
+.menu .menu_lia { width:100px; height:35px;color:#000; background:#f0f0f0; display:block;}
+.menu .menu_lia a { color:#000;}
+.menu .menu_lia a:hover { color:#000; background:none;}
+.menu .menu_lia1 { width:100px; height:35px;color:#000; background:#222; display:block;}
+.menu .menu_lia1 a { width:100px; height:35px;color:#fff; background:#222; display:block;}
+.menu .menu_lia1 a:hover { width:100px; height:35px;color:#fff; background:#f90; display:block;}
+.menu .menu_lia2 { width:100px; height:35px;color:#000; background:#222; display:block;}
+.menu .menu_lia2 a { width:100px; height:35px;color:#fff; background:#222; display:block;}
+.menu .menu_lia2 a:hover { width:100px; height:35px;color:#fff; background:#099; display:block;}
+.main { width:1130px; margin:0 auto; margin-top:20px; font-family:"Î¢ÈíÑÅºÚ";}
+.main_left { width:547px; float:left;}
+.btn_ewm { width:1130px; margin: 0 auto; height:110px; border-top:1px solid #ededed; padding-top:20px; font-family:Arial, Helvetica, sans-serif; color:#999; line-height:22px; margin-top:30px;}
+.bottom_logo { width:400px; height:105px; background:url(xfl_logo3.jpg); margin-bottom:10px;}
+.bottom_logo a { width:400px; height:105px; display:block;}
+.bottom_chaxun { width:160px; height:30px; background:#000; line-height:30px; text-align:center; margin-top:5px;}
+.bottom_chaxun a { width:160px; height:30px; display:block; color:#FFF;}
+.bottom_chaxun a:hover { width:160px; height:30px; display:block; background:#333; color:#FFF;}
+
+.main_right { width:547px; float:right;}
+.main_leftl { width:547px; height:194px; background:url(xfl_pp1.jpg); margin-bottom:15px;}
+.main_rightl { width:547px; height:194px; background:url(xfl_pp2.jpg); margin-bottom:15px;}
+.ewm { width:90px; height:90px; background:#FFF; padding:5px; border:1px solid #ededed;-webkit-box-shadow: #eee 0px 0px 4px;-moz-box-shadow: #eee 0px 0px 4px;box-shadow: #eee 0px 0px 4px; float:right; margin-right:25px;}
+.sina_wb { width:100px; height:100px; border:1px solid #ededed; background:url(xfl_wb.jpg) center no-repeat; float:right;-webkit-box-shadow: #eee 0px 0px 4px;-moz-box-shadow: #eee 0px 0px 4px;box-shadow: #eee 0px 0px 4px;}
+.sina_wb a {width:100px; height:100px; display:block;}
+
+.cp_banner1 { width:1130px; height:556px; background:url(xfl_red1.jpg); margin:0 auto;}
+.cp_banner2 { width:1130px; height:469px; background:url(xfl_bb1.jpg); margin:0 auto;}
+.cp_banner3 { width:1130px; height:469px; background:url(xfl_blue1.jpg); margin:0 auto;}
+.cp_box { width:1130px; margin:0 auto; text-align:center; padding-bottom:50px;}

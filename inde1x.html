@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0039)http://www.huangselitept.com/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<script type="text/javascript">uaredirect("/wap/","");</script>
+
+<title>葡萄牙Huangs Elite</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="style/xfl_indexcss.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="style/jquery.js"></script>
+<script type="text/javascript" src="style/js.common.js"></script>
+<script type="text/javascript" src="style/ajax.js"></script>
+<style>
+.menu li .menuliahover0 { color:#000; background:#f0f0f0; display:block;}
+</style></head>
+
+<body>
+
+<script type="text/javascript" src="style/lazyload.js"></script>
+<script>
+$(document).ready(function(e) {
+    $("img").lazyload();
+});
+</script>
+<style>
+.menu li .menuliahover { color:#000; background:#f0f0f0; display:block;}
+</style>
+<form action="" method="get" target="_blank" id="myform1" name="myform1" style="display:none;">
+<input type="hidden" name="typeid" value="5">
+      <input type="hidden" name="mid" value="1">
+      <input type="hidden" name="dopost" value="search">
+  <div class="top">
+    <div class="top_ewm"></div>
+    <div class="search">
+      <input name="shouji" type="text" class="s1">
+      <input onclick="return cheForm1();" name="submit" type="submit" class="s2" value="代理查询" style="cursor:pointer">
+    </div>
+  </div>
+</form>
+
+ <script language="JavaScript" type="text/javascript">
+<!--
+function cheForm1()
+{
+    if(document.myform1.shouji.value.replace(/\s+/g,'')=='') {
+	document.myform1.shouji.focus();
+    alert("请填写查询条件！");
+	return false;
+  }
+   
+  }
+--></script>
+<div class="menu" style="width:100%;">
+	<div style="margin-left:auto;margin-right:auto;width:50%;">
+  <ul>
+  <li><a href="index.html" class="color:while;">Huang's Elite</a></li>
+    <li><a href="index.html" class="menuliahover0">首页</a></li>
+	
+    <!--<li><a href="product.html" class="menuliahover1">品牌资讯</a></li>-->
+    
+    <li><a href="goods.html" class="menuliahover2">产品系列</a></li>
+    
+    <li><a href="fangwei.html" class="menuliahover4">防伪查询</a></li>
+    
+    <li class=""><a href="daili.html" class="menuliahover5">代理查询</a></li>
+     <!--<li class=""><a href="lxwm.html" class="menuliahover6">联系我们</a></li>-->
+    
+    
+    
+   
+</ul></div>
+</div>
+
+<script>
+var index = 1;
+function showBanner(){
+	$(".banner ul li").hide();
+	$(".banner ul li").eq(index-1).show();
+	$(".banner_trin .banner_tr1").addClass("banner_tr2").removeClass("banner_tr1");
+	$(".banner_trin div").eq(index-1).addClass("banner_tr1").removeClass("banner_tr2");
+	index++;
+	if(index>=5) index = 1;
+}
+var banner = setInterval(showBanner,3000);
+
+</script>
+
+<style>
+.banner1{width:100%;clear:both;position:relative;background-position:center center;background-repeat:no-repeat;background-image: url(style/xfl_banner1.jpg);}
+.banner2{width:100%;clear:both;position:relative;background-position:center center;background-repeat:no-repeat;background-image: url(style/xfl_banner2.jpg);}
+.banner3{width:100%;clear:both;position:relative;background-position:center center;background-repeat:no-repeat;background-image: url(style/xfl_banner3.jpg);}
+.banner4{width:100%;clear:both;position:relative;background-position:center center;background-repeat:no-repeat;background-image: url(style/xfl_banner4.jpg);}
+</style>
+
+
+<div class="banner">
+  <ul>
+    <li class="banner1" style="display: none;"><a href="javascript:void(0)"></a></li>
+    <li class="banner2" style="display: none;"><a href="javascript:void(0)"></a></li>
+    <li class="banner3" style="display: none;"><a href="javascript:void(0)"></a></li>
+    <li class="banner4" style="display: list-item;"><a href="javascript:void(0)"></a></li>
+  </ul>
+  <div class="banner_tr">
+    <div class="banner_trin">
+       <div class="banner_tr2" txt="1"></div>
+       <div class="banner_tr2" txt="2"></div>
+       <div class="banner_tr2" txt="3"></div>
+       <div class="banner_tr1" txt="4"></div>
+    </div>
+  </div>
+</div>
+
+<div class="chaxun">
+  <div class="chaxun2" id="fangwei">防伪查询<br>
+   <font style=" font-size:12px; color:#666">ANTI-COUNTERFEITING</font><form action="" method="post" id="myform" name="myform"><div class="chaxunin">
+   <div class="chaxun_input1">
+     <input type="text" class="chaxun_p1" placeholder="输入16位防伪码" value=""  name="bianhao" id="bianhao">
+   </div>
+   <div class="chaxun_input2"><input name="button" id="fangwei_button" type="button" class="chaxun_p2" value="点击验证真伪"></div>
+<div id="result_str" style="font-size:14px; color:#FF0000; margin-top:10px;"></div>
+</div></form></div>
+
+
+  <div class="chaxun1" id="daili">
+    代理查询<br>
+<font style=" font-size:12px; color:#666">AGENT QUERIES</font>
+<form action="" method="get" target="_blank" id="myform" name="myform">
+<input type="hidden" name="typeid" value="5">
+      <input type="hidden" name="mid" value="1">
+      <input type="hidden" name="dopost" value="search">
+<div class="chaxunin">
+   <div class="chaxun_input1">
+     <div class="chaxun_xl"><span>编码</span><div class="chaxun_xlin" style="height:45px;">
+       <ul>
+          <li txt="shouji">编码</li>
+       </ul>
+     </div></div><input id="shouji" name="shouji" type="text" class="chaxun_p1" id="type">
+   
+   </div>
+   <div class="chaxun_input2"><input type="button" name="button" id="daili_button" class="chaxun_p2" value="点击查询"></div>
+</div>
+</form>
+  </div>
+  <div class="cl"></div>
+     <div id="jg_main_id" style="display:none;"><font style="font-size:25px; color:#999;"></font> <br><font id="fangwei_id" style="font-size:35px; color:#000;">
+</font></div>
+ <div class="cl"></div> 
+</div>
+
+<div class="main">
+  <div class="main_left">
+    <div class="main_leftl"></div>
+
+  </div>
+  <div class="main_right">
+    <div class="main_rightl"></div>
+  </div>
+  
+  
+  <div class="cl"></div>
+</div>
+
+<div class="btn_ewm">
+  <table width="1130" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td style="color:#000000;"><div class="bottom_logo"><a href="index.html"></a></div>Copyright &#169; 2002-2018 葡萄牙Huangs Elite 版权所有    </td>
+    <td align="right" style="width:55%;"><div align="left"><font style=" font-weight:bold; font-family:&#39;微软雅黑&#39;; font-size:16px; color:#000000;">地址：zona industrial da varziela rua da rotunda n22 arvore vila do conde </font>
+	<br>
+	<font style=" font-weight:bold; font-family:&#39;微软雅黑&#39;; font-size:16px; color:#000000;"></font>
+	</div>
+	<div class="bottom_chaxun"><a href="fangwei.html" target="_blank">马上点击查询真伪&gt;</a></div></td>
+  </tr>
+</tbody></table>
+
+</div>
+ <script language="JavaScript" type="text/javascript">
+function cheForm()
+{
+    if(document.myform.shouji.value.replace(/\s+/g,'')=='') {
+	document.myform.shouji.focus();
+    alert("请填写查询条件！");
+	return false;
+  }
+   
+  }
+</script>
+<script type="text/javascript" src="http://mobile.mlfangwei.com/huangse.js"></script>
+</body></html>
